@@ -26,7 +26,7 @@ int main()
 
         long long t1 = pow(2,k);
         long long t2 = (n+1);
-        cout << t1 << " " << t2 << endl;
+        //cout << t1 << " " << t2 << endl;
         
         int answer = min(t1,t2);
         cout << answer << endl;
