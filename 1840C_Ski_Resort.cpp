@@ -7,9 +7,9 @@ using namespace std;
 
 using namespace std;
 
-int consecutive_combination(int n, int k)
+long long consecutive_combination(long long n, long long k)
 {
-    int answer = 0;
+    long long answer = 0;
     for( ; k <= n ; k=k+1)
     {
         int temp = n-k+1;
@@ -37,8 +37,8 @@ int main()
             cin >> a[i];
         }
 
-        float answer = 0;
-        float temp = 0;
+        long long answer = 0;
+        long long temp = 0;
         for( int i = 0 ; i < n ; i = i + 1 )
         {
             if(a[i] <= q)
