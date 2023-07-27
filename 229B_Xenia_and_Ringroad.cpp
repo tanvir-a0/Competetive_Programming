@@ -4,17 +4,17 @@ using namespace std;
 
 int main()
 {
-    int n, m; cin >> n; cin >> m;
+    long long n, m; cin >> n; cin >> m;
 
-    int a[m];
+    long long a[m];
 
     for( int i = 0 ; i < m ; i = i + 1 )
     {
         cin >> a[i] ; 
     }
 
-    int current = 1;
-    int answer = 0;
+    long long current = 1;
+    long long answer = 0;
 
     for( int i = 0 ; i < m ; i = i + 1 )
     {
